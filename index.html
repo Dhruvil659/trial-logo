@@ -4,107 +4,93 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MorphKala Services</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Space+Grotesk&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="background-animation"></div>
 
-  <header class="navbar">
-    <h1 class="logo">Morph<span>Kala</span></h1>
-  </header>
+  <nav>
+    <a href="#core">Core</a>
+    <a href="#addon">Add-Ons</a>
+    <a href="#packages">Packages</a>
+    <a href="#branding">Branding</a>
+  </nav>
 
-  <section class="hero">
-    <h2>From Vision to Reality</h2>
-    <p>Explore Our Immersive XR Services</p>
+  <div class="hero">
+    <h1>MorphKala Services</h1>
+    <p>From Vision to Reality — Explore the Possibilities</p>
+    <button class="cta-btn">Get a Custom Quote</button>
+  </div>
+
+  <section class="services-section" id="core">
+    <h2>Core Services</h2>
+    <div class="card-grid">
+      <div class="service-card">🧱 <strong>3D Modeling</strong><p>Product Visualizations, Characters, Architecture, XR Assets</p></div>
+      <div class="service-card">🎨 <strong>Design Services</strong><p>Brand Identity, Posters, UI/UX for XR, Concept Art</p></div>
+      <div class="service-card">🎞️ <strong>Animation Services</strong><p>Explainers, XR Animations, Motion Graphics</p></div>
+    </div>
   </section>
 
-  <main class="services">
-    <section>
-      <h3><i class="fas fa-cube"></i> Core Services</h3>
-      <div class="service-grid">
-        <div class="service-card">
-          <h4>3D Modeling</h4>
-          <ul>
-            <li>Product Visualization</li>
-            <li>Character & Avatars</li>
-            <li>Architectural Assets</li>
-            <li>AR/VR Optimized Assets</li>
-          </ul>
-        </div>
-        <div class="service-card">
-          <h4>Design Services</h4>
-          <ul>
-            <li>Brand Identity</li>
-            <li>UI/UX for XR</li>
-            <li>Posters & Banners</li>
-            <li>Storyboards & Concept Art</li>
-          </ul>
-        </div>
-        <div class="service-card">
-          <h4>Animation</h4>
-          <ul>
-            <li>Explainer Videos</li>
-            <li>Motion Graphics</li>
-            <li>XR Animations</li>
-            <li>Character & Scene Animations</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+  <section class="services-section" id="addon">
+    <h2>Add-On Services</h2>
+    <div class="card-grid small-grid">
+      <div class="service-card">🕶️ XR Development</div>
+      <div class="service-card">⚙️ Real-Time 3D</div>
+      <div class="service-card">📉 Asset Optimization</div>
+      <div class="service-card">🎯 Motion Capture</div>
+      <div class="service-card">📸 AR Filters</div>
+      <div class="service-card">🌐 360° Videos</div>
+    </div>
+  </section>
 
-    <section>
-      <h3><i class="fas fa-plus-circle"></i> Add-On Services</h3>
-      <ul class="addon-list">
-        <li>XR Development</li>
-        <li>Real-Time 3D Interactions</li>
-        <li>3D Asset Optimization</li>
-        <li>Motion Capture</li>
-        <li>AR Filters</li>
-        <li>360° Video</li>
+  <section class="packages-section" id="packages">
+    <h2>Tiered Packages</h2>
+    <div class="package-card">
+      <h3>Basic Package</h3>
+      <ul>
+        <li>1 Product 3D Visualization</li>
+        <li>Basic Brand Identity</li>
+        <li>1 Motion Graphic</li>
+        <li>1 Explainer Video (30 sec)</li>
       </ul>
-    </section>
+    </div>
+    <div class="package-card">
+      <h3>Standard Package</h3>
+      <ul>
+        <li>3 Product 3D Visualizations</li>
+        <li>Full Brand Identity + XR</li>
+        <li>3 Motion Graphics</li>
+        <li>1 XR Animation</li>
+        <li>2 Storyboards</li>
+      </ul>
+    </div>
+    <div class="package-card">
+      <h3>Premium Package</h3>
+      <ul>
+        <li>5 Product 3D Visualizations</li>
+        <li>Complete Brand + XR Design</li>
+        <li>5 Motion Graphics</li>
+        <li>3 XR Animations</li>
+        <li>5 Scene Animations</li>
+        <li>1 XR Showroom Experience</li>
+      </ul>
+    </div>
+  </section>
 
-    <section>
-      <h3><i class="fas fa-layer-group"></i> Tiered Packages</h3>
-      <div class="package-list">
-        <button class="collapsible">Basic Package</button>
-        <div class="content">
-          <ul>
-            <li>1 Product 3D Visualization</li>
-            <li>Logo & Identity Design</li>
-            <li>1 Motion Graphic</li>
-            <li>1 Explainer Video</li>
-          </ul>
-        </div>
-        <button class="collapsible">Standard Package</button>
-        <div class="content">
-          <ul>
-            <li>3 Product Visuals</li>
-            <li>Full Branding + XR</li>
-            <li>3 Motion Graphics</li>
-            <li>1 XR Animation</li>
-          </ul>
-        </div>
-        <button class="collapsible">Premium Package</button>
-        <div class="content">
-          <ul>
-            <li>5 Product Visuals</li>
-            <li>Complete Brand + XR Design</li>
-            <li>5 Motion Graphics</li>
-            <li>3 XR Animations</li>
-            <li>VR Showroom</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </main>
+  <section class="extended-branding" id="branding">
+    <h2>Extended Branding</h2>
+    <details><summary>Brand Identity</summary><p>Logos, Color Palettes, Typography, Brand Guidelines</p></details>
+    <details><summary>Digital Experience</summary><p>3D Intros, XR Activations, VR Branding</p></details>
+    <details><summary>Web & Social Presence</summary><p>Website UI, AR Filters, Interactive Elements</p></details>
+    <details><summary>Strategy & Consultation</summary><p>Taglines, Visual Storytelling, Market Positioning</p></details>
+    <details><summary>Special Branding Kits</summary><p>Startup Kits, 3D Branding, Eco Impact Packs</p></details>
+  </section>
 
   <footer>
-    <p>&copy; 2025 MorphKala. All rights reserved.</p>
+    <p>Need help choosing a plan?</p>
+    <button class="cta-btn">Contact Us</button>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
